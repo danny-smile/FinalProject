@@ -1,0 +1,104 @@
+#Final Website Plan: Dreamy Delight Ice Cream
+
+## A multi-page website:
+
+###1. Planned pages (site map draft)
+
+**Page Title** **File Name**
+Home          index.html 
+Menu          menu.html
+About Us      about.html
+Contact       contact.html
+Styles	      Styles.css
+
+###2. Content details for each page:
+
+This website is called **Dreamy Delight Ice Cream**, and it will include all topics learned this semester in <ins> CIS 130</ins>. 
+
+**Home page** (index.html) will introduce the website and offer an overview of the website. It will include a hero section,
+featured ice cream flavors, and a mission paragraph that reflects both the brand and the objectives.
+
+**Menu page (menu.html)** will show different ice cream flavors of the store using images and styled layout sections.
+This page will demonstrate CSS layout techniques such as Flexbox or Grid learn in week 4 and will be designed to be visually engaging and 
+responsive.
+
+**About Us page** (about.html) will explain the purpose of the website, and it will also reflect more on what was learned during the course.
+
+**Contact page (contact.html)** will include a contact form use with form spree and show accessibility design practices. It will allow customers to 
+type their name, email, phone number, and message.
+
+###3.	Planned media & assets:
+
+•	Ice cream pictures (cones, scoops, sundaes) 
+•	Navigation icons
+•	Video about ice cream
+•	Pastel background colors (pink, mint, vanilla cream tones)  
+•	Accessibility: proper contrast colors
+•	CSS layouts (Flexbox and Grid) 
+•	Contact form on contact.html (Name, Email, Phone Number, Message)
+
+###4.	Navigation Plan:
+**_Navbar Menu (Top bar on every webpage)_**
+•	Home
+•	Menu
+•	About us 
+•	Contact
+
+**_Navigation will have features like Hover effects for interaction_**
+Footer link:
+•	Link to my GitHub
+•	Copyright information
+
+###5.	Accessibility Considerations:
+
+**1.	Alt Text:**
+•	All images will include descriptive alt text 
+•	Decorative images will be marked as decorative where appropriate 
+
+**2.	Heading Structure:** 
+•	Each page uses: 
+•	H1 → Page title 
+•	H2 → Major sections 
+•	H3 → Supporting details or samples of flavor
+
+**3.	Color combinations**
+Yes.
+
+•	Soft pastel palette with dark readable text 
+•	Contrast color accepted from WAVE page 
+
+###6.	File and Folder Plan:
+
+Final Project:
+/Final Project-folder
+index.html
+
+/pages
+Menu.html
+about.html
+contact.html
+
+/CSS
+styles.css 
+
+/images
+ice cream flavor pictures
+logo.png
+video.mp4
+
+README.md
+
+###7.	Code Validation Plan:
+All code will be validated using web standards tools:
+
+**HTML Validation:**
+•	W3C HTML Validator used on every page
+It will check missing tags or structural errors.
+
+**CSS Validation:**
+•	W3C CSS Validator used for stylesheet checks  
+It will check Invalid properties and syntax errors in the code.
+
+**WAVE Validation:**
+It will check Missing Alt text on pictures, low or high colors contrast issues, ARIA errors, and accessibility alerts and warnings.
+
