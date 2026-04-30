@@ -1,0 +1,193 @@
+<!-- Menu HTML Code -->
+
+<!--
+Images credits:
+
+Chocolate Dream:
+Image from Vintage Kitchen Notes
+https://vintagekitchennotes.com/
+
+Strawberry Bliss:
+Image embedded (base64) – original source unknown
+
+Vanilla Classic:
+Image from Dreamstime
+https://www.dreamstime.com/
+
+Cookies and Cream Deluxe:
+Image embedded (base64) – original source unknown
+
+Chocolate Cake:
+Image from Unsplash
+https://insanelygoodrecipes.com/
+
+Blackberry Vanilla:
+Image from Wix video
+https://www.wixstatic.com/
+
+All images are used for educational purposes.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Dreamy Delight Ice Cream</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="name">Dreamy Delight Ice Cream</div>
+
+        <nav aria-label="Main Navigation">
+            <ul class="navbar-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <section class="menu-hero fade-in">
+            <div class="menu-hero-content">
+                <h1>Our Menu</h1>
+                <p>Premium handcrafted ice cream, made fresh daily.</p>
+            </div>
+        </section>
+ 
+        <section class="section">
+            <h2>Our Ice Cream Flavors</h2>
+
+            <div class="product-grid">
+
+                <article class="product-card fade-in">
+                    <img src="https://vintagekitchennotes.com/wp-content/uploads/2024/09/Chocolate-ice-cream-with-fudge.jpg"
+                        alt="Chocolate ice cream scoop" class="product-image" loading="lazy">
+                    <h3>Chocolate Dream</h3>
+                    <p class="desc">Rich dark chocolate with creamy texture</p>
+                    <p class="price">$5.50</p>
+                    <button class="btn" aria-label="Add to cart Chocolate Dream ice cream">
+                        Add to Cart
+                    </button>
+                </article>
+
+                <article class="product-card fade-in">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="Strawberry ice cream scoop" class="product-image" loading="lazy">
+                    <h3>Strawberry Bliss</h3>
+                    <p class="desc">Fresh strawberries blended into cream</p>
+                    <p class="price">$5.00</p>
+                    <button class="btn" aria-label="Add to cart Strawberry Bliss ice cream">
+                        Add to Cart
+                    </button>
+                </article>
+
+                <article class="product-card fade-in">
+                    <img src="https://thumbs.dreamstime.com/b/vintage-ice-cream-restaurant-serving-butterscotch-swirl-ice-cream-sweet-indulgent-treat-perfect-nostalgic-dessert-386981250.jpg?w=992"
+                        alt="Vanilla ice cream scoop" class="product-image" loading="lazy">
+                    <h3>Vanilla Classic</h3>
+                    <p class="desc">Smooth vanilla bean luxury flavor</p>
+                    <p class="price">$5.00</p>
+                    <button class="btn" aria-label="Add Vanilla Classic ice cream to cart">
+                        Add to Cart
+                    </button>
+                </article>
+
+                <article class="product-card fade-in">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="Cookies and Cream ice cream" class="product-image" loading="lazy">
+                    <h3>Cookies and Cream Deluxe</h3>
+                    <p class="desc">Creamy vanilla with extra cookie chunks</p>
+                    <p class="price">$5.00</p>
+                    <button class="btn" aria-label="Add Cookies and Cream Deluxe ice cream to cart">
+                        Add to Cart
+                    </button>
+                </article>
+
+                <article class="product-card fade-in">
+                    <img src="https://insanelygoodrecipes.com/wp-content/uploads/2020/11/Homemade-Chocolate-Brownies-with-Chocolate-Sauce.png"
+                        alt="Chocolate Cake ice cream scoop" class="product-image" loading="lazy">
+                    <h3>Chocolate Cake</h3>
+                    <p class="desc">Rich chocolate cake with creamy ice cream</p>
+                    <p class="price">$5.50</p>
+                    <button class="btn" aria-label="Add Chocolate Cake ice cream to cart">
+                        Add to Cart
+                    </button>
+                </article>
+
+                <article class="product-card fade-in">
+                    <img src="https://thegandmkitchen.com/wp-content/uploads/2023/06/no-churn-blackberry-icecream-4.jpg"
+                        alt="Blackberry Vanilla" class="product-image" loading="lazy">
+                    <h3>Blackberry Vanilla</h3>
+                    <p class="desc">Tangy blackberry with creamy vanilla ice cream</p>
+                    <p class="price">$5.50</p>
+                    <button class="btn" aria-label="Add Blackberry Vanilla ice cream to cart">
+                        Add to Cart
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <section class="section fade-in">
+            <h2>Design Guides</h2>
+            <p>This video helped me understand CSS Grid layouts:</p>
+            <iframe src="https://www.youtube.com/embed/EaWj2AWI5Es?si=EteEM38JDSV2cF3h"
+                title="YouTube video player" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-video; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+
+            <p class="download">
+                <a href="https://www.youtube.com/watch?v=EaWj2AWI5Es" target="_blank">
+                    Watch Video on YouTube</a>
+            </p>
+
+            <p class="description">
+                This video by Dave Gray was instrumental in helping me understand how to use CSS Grid to create a
+                responsive layout for the menu page. He explains the concepts clearly and provides practical examples
+                that I could follow along with. The visual demonstrations of grid areas, columns, and rows made it
+                easier for me to grasp how to structure the HTML and apply the CSS effectively. I highly recommend this
+                video to anyone looking to learn CSS Grid for their web design projects.
+            </p>
+
+            <p class="attribution">
+                Video by
+                <a href="https://www.youtube.com/@DaveGrayTeachesCode" target="_blank">Dave Gray</a>
+                from
+                <a href="https://www.youtube.com/">YouTube</a>
+            </p>
+
+            <p>
+                I also used this article:
+                <a href="https://www.w3schools.com/css/css_grid.asp" target="_blank" rel="noopener noreferrer">
+                    CSS Grid Layout
+                </a>
+            </p>
+            <p>
+                And this video for the fade-in animation:
+                <a href="https://www.youtube.com/watch?v=YszONjKpgg4" target="_blank" rel="noopener noreferrer">
+                    Learn CSS Animation In 15 Minutes
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Dreamy Delight Ice Cream
+            <a href="https://github.com/danny-smile">Visit my GitHub</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
