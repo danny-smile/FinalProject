@@ -52,7 +52,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 25px;
-    padding: 0;
+    padding: 0; 
 }
 
 .navbar-links a {
@@ -211,6 +211,19 @@ a:focus {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
+}
+
+.layout {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "hero"
+        "main"
+        "footer";
+}
+
+main {
+    grid-area: main; 
 }
 
 .card {
