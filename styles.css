@@ -67,21 +67,7 @@ body {
  
 .dropdown {
     position: relative;
-}
- 
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background: white;
-    border: 1px solid #eee3d9;
-    border-radius: 10px;
-    padding: 10px 0;
-    list-style: none;
-    display: none;
-    min-width: 200px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-}
+} 
  
 .dropbtn {
     background: var(--gold);
@@ -99,11 +85,6 @@ body {
     background: #ffbf3f;
     transform: scale(1.05);
 }
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-    background-color: white;
-}
  
 .dropdown:focus-within .dropdown-menu {
     display: block;
@@ -117,16 +98,15 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background: #ffffff;   /* force solid white */
-    opacity: 1;            /* ensure no transparency */
+    background: #ffffff;    
+    opacity: 1;            
     border: 1px solid #e6dcd2;
     border-radius: 12px;
     padding: 10px 0;
     list-style: none;
     display: none;
     min-width: 220px;
-
-    box-shadow: 0 12px 30px rgba(0,0,0,0.15); /* stronger shadow */
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);  
     z-index: 999;
 } 
 
