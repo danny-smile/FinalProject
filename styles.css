@@ -64,6 +64,78 @@ body {
 .navbar-links a:hover {
     color: var(--pink);
 }
+ 
+.dropdown {
+    position: relative;
+}
+ 
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #eee3d9;
+    border-radius: 10px;
+    padding: 10px 0;
+    list-style: none;
+    display: none;
+    min-width: 200px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+ 
+.dropbtn {
+    background: var(--gold);
+    color: black;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background: #ffbf3f;
+    transform: scale(1.05);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: white;
+}
+ 
+.dropdown:focus-within .dropdown-menu {
+    display: block;
+}
+ 
+.dropdown-menu li {
+    padding: 8px 15px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;   /* force solid white */
+    opacity: 1;            /* ensure no transparency */
+    border: 1px solid #e6dcd2;
+    border-radius: 12px;
+    padding: 10px 0;
+    list-style: none;
+    display: none;
+    min-width: 220px;
+
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15); /* stronger shadow */
+    z-index: 999;
+} 
+
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
 
 .hero-full {
     min-height: 70vh;
@@ -114,8 +186,7 @@ body {
 
 .button:hover,
 .button:focus {
-    transform: scale(1.05);
-    opacity: 0.9;
+    transform: scale(1.05); 
 }
 
 .btn:focus {
