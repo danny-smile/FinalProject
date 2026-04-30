@@ -691,12 +691,7 @@ footer a:hover {
     html {
         font-size: 15px;
     }
-
-    .navbar-links {
-        flex-direction: column;
-        align-items: center;
-    }
-
+ 
     section {
         padding: 1.2rem 0.8rem;
     }
