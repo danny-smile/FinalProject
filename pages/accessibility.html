@@ -4,28 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dreamy Delight Ice Cream</title>
+    <title>Dreamy Delight Ice Cream - Accessibility</title>
     <link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
 
     <a class="skip-link" href="#main-content">Skip to main content</a>
+
     <div class="layout">
 
         <header class="site-header">
             <div class="name">Dreamy Delight Ice Cream</div>
 
-
             <nav aria-label="Main Navigation">
                 <ul class="navbar-links">
+
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="menu.html">Menu</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
 
                     <li class="dropdown">
-                        <button class="dropbtn" aria-haspopup="true" aria-expanded="false"> More</button>
+                        <button type="button" class="dropbtn" aria-haspopup="true" aria-expanded="false">
+                            More
+                        </button>
+
                         <ul class="dropdown-menu">
                             <li><a href="code-editor.html">Code Editor</a></li>
                             <li><a href="semantic.html">Semantic HTML</a></li>
@@ -36,6 +40,7 @@
                             <li><a href="ai-use.html">AI Use</a></li>
                         </ul>
                     </li>
+
                 </ul>
             </nav>
         </header>
@@ -44,19 +49,73 @@
 
             <h1>Web Accessibility</h1>
 
-            <ul>
-                <li>Skip link for keyboard users</li>
-                <li>Alt text on images</li>
-                <li>ARIA labels on navigation</li>
-                <li>High contrast colors</li>
-            </ul>
+            <p>
+                Web accessibility ensures that websites are usable by everyone, including people with disabilities. It
+                involves designing and developing websites that can be accessed and navigated by users with various
+                assistive technologies, such as screen readers, keyboard navigation, and voice recognition software.
+            </p>
+
+            <section>
+                <h2>Key Accessibility Features</h2>
+                <ul>
+                    <li>Skip link for keyboard navigation</li>
+                    <li>Proper heading structure (H1, H2, H3)</li>
+                    <li>ARIA labels for navigation menus</li>
+                    <li>Readable color contrast</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Helpful Resource</h2>
+
+                <p>
+                    <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/" target="_blank"
+                        rel="noopener noreferrer">
+                        W3C Web Accessibility Introduction
+                    </a>
+                </p>
+
+                <p>
+                    This guide from the World Wide Web Consortium (W3C) provides comprehensive information on web
+                    accessibility principles and best practices.
+                </p>
+            </section>
+
+            <section class="section fade-in" aria-label="YouTube accessibility tutorial">
+
+                <h2>YouTube Tutorial</h2>
+
+                <iframe src="https://www.youtube.com/embed/20SHvU2PKsM" title="Web Accessibility Explained"
+                    allowfullscreen>
+                </iframe>
+
+                <p class="description">
+                    This video provides an overview of web accessibility and practical tips for making websites more
+                    inclusive.
+                </p>
+
+                <p class="attribution">
+                    Video by
+                    <a href="https://www.youtube.com/@DequeSystems" target="_blank" rel="noopener noreferrer">
+                        Deque Systems
+                    </a>
+                </p>
+
+            </section>
 
         </main>
 
         <footer>
-            <p>&copy; 2026 Dreamy Delight Ice Cream <a href="https://github.com/danny-smile">Visit my GitHub</a></p>
+            <p>
+                &copy; 2026 Dreamy Delight Ice Cream
+                <a href="https://github.com/danny-smile" target="_blank" rel="noopener noreferrer">
+                    Visit my GitHub
+                </a>
+            </p>
         </footer>
-</body>
 
+    </div>
+
+</body>
 
 </html>

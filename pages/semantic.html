@@ -4,28 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dreamy Delight Ice Cream</title>
+    <title>Dreamy Delight Ice Cream - Semantic HTML</title>
     <link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
-
+ 
     <a class="skip-link" href="#main-content">Skip to main content</a>
-    <div class="layout">
 
+    <div class="layout">
+ 
         <header class="site-header">
             <div class="name">Dreamy Delight Ice Cream</div>
 
-
             <nav aria-label="Main Navigation">
                 <ul class="navbar-links">
+
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="menu.html">Menu</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
 
                     <li class="dropdown">
-                        <button class="dropbtn" aria-haspopup="true" aria-expanded="false"> More</button>
+                        <button type="button" class="dropbtn" aria-haspopup="true" aria-expanded="false">
+                            More
+                        </button>
+
                         <ul class="dropdown-menu">
                             <li><a href="code-editor.html">Code Editor</a></li>
                             <li><a href="semantic.html">Semantic HTML</a></li>
@@ -36,27 +40,88 @@
                             <li><a href="ai-use.html">AI Use</a></li>
                         </ul>
                     </li>
+
                 </ul>
             </nav>
         </header>
-
+ 
         <main id="main-content" class="section">
 
             <h1>HTML Semantic Elements</h1>
 
-            <p>Semantic HTML uses meaningful tags like header, nav, main, section, and footer.</p>
+            <p>
+                Semantic HTML uses meaningful elements such as <strong>header</strong>, <strong>nav</strong>,
+                <strong>main</strong>, <strong>section</strong>, and <strong>footer</strong> to clearly describe the
+                structure of a webpage.
+            </p>
 
-            <ul>
-                <li>Improves accessibility</li>
-                <li>Helps screen readers</li>
-                <li>Improves SEO</li>
-            </ul>
+            <section>
+                <h2>Why Semantic HTML Matters</h2>
+                <ul>
+                    <li>Improves accessibility for screen readers</li>
+                    <li>Makes code easier to read and maintain</li>
+                    <li>Helps search engines understand content (SEO)</li>
+                    <li>Creates better structured web pages</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Helpful Article</h2>
+
+                <p>
+                    <a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Learn more about Semantic HTML on MDN Web Docs
+                    </a>
+                </p>
+
+                <p>
+                    This article provides a comprehensive overview of semantic HTML, including definitions and examples
+                    of various semantic elements.
+                </p>
+            </section>
+
+            <section class="section fade-in" aria-label="YouTube tutorial on semantic HTML">
+                <h2>YouTube Video</h2>
+
+                <iframe
+                    src="https://www.youtube.com/embed/kX3TfdUqpuU"
+                    title="Semantic HTML Explained"
+                    allowfullscreen>
+                </iframe>
+
+
+                <p class="description">
+                    This video provides a clear explanation of semantic HTML and how to use it effectively in your
+                    web projects.
+                </p>
+
+                <p class="attribution">
+                    Video by
+                    <a href="https://www.youtube.com/@DaveGrayTeachesCode"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Dave Gray Teaches Code
+                    </a>
+                </p>
+            </section>
 
         </main>
-
+ 
         <footer>
-            <p>&copy; 2026 Dreamy Delight Ice Cream <a href="https://github.com/danny-smile">Visit my GitHub</a></p>
+            <p>
+                &copy; 2026 Dreamy Delight Ice Cream
+                <a href="https://github.com/danny-smile"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Visit my GitHub
+                </a>
+            </p>
         </footer>
+
+    </div>
+
 </body>
 
 </html>

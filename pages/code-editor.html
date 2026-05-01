@@ -9,23 +9,27 @@
 </head>
 
 <body>
-
+ 
     <a class="skip-link" href="#main-content">Skip to main content</a>
-    <div class="layout">
 
+    <div class="layout">
+ 
         <header class="site-header">
             <div class="name">Dreamy Delight Ice Cream</div>
-
-
+ 
             <nav aria-label="Main Navigation">
                 <ul class="navbar-links">
+
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="menu.html">Menu</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
-
+ 
                     <li class="dropdown">
-                        <button class="dropbtn" aria-haspopup="true" aria-expanded="false"> More</button>
+                        <button type="button" class="dropbtn" aria-haspopup="true" aria-expanded="false">
+                            More
+                        </button>
+
                         <ul class="dropdown-menu">
                             <li><a href="code-editor.html">Code Editor</a></li>
                             <li><a href="semantic.html">Semantic HTML</a></li>
@@ -36,28 +40,77 @@
                             <li><a href="ai-use.html">AI Use</a></li>
                         </ul>
                     </li>
+
                 </ul>
             </nav>
         </header>
-
+ 
         <main id="main-content" class="section">
 
             <h1>Using the Code Editor</h1>
 
-            <p>I used Visual Studio Code to build this project. It helped me organize HTML, CSS, and images into
-                structured folders.</p>
+            <p>
+                I used Visual Studio Code to build this project. It helped me organize HTML, CSS, and images into
+                structured folders and keep my code clean and readable.
+            </p>
 
-            <ul>
-                <li>index.html for homepage</li>
-                <li>pages for extra content</li>
-                <li>styles.css for design</li>
-            </ul>
+            <section>
+                <h2>Project Structure</h2>
+                <ul>
+                    <li><strong>index.html</strong> for homepage</li>
+                    <li><strong>pages/</strong> folder for extra content pages</li>
+                    <li><strong>styles.css</strong> for design and layout</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Helpful Resource</h2>
+                <p>
+                    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
+                        Learn more about Visual Studio Code
+                    </a>
+                </p>
+                <p>
+                    This resource explains how to install and use VS Code for web development.
+                </p>
+            </section>
+
+            <section class="section fade-in" aria-label="YouTube tutorial on using Visual Studio Code">
+                <h2>YouTube Tutorial</h2>
+
+                <iframe
+                    src="https://www.youtube.com/embed/lWEKiak0WVU?si=GDHjf7PIYaeNsqnK"
+                    title="Visual Studio Code tutorial for beginners"
+                    allowfullscreen>
+                </iframe>
+
+                <p class="description">
+                    This video provides a great introduction to using Visual Studio Code for web development,
+                    including file management and helpful extensions.
+                </p>
+
+                <p class="attribution">
+                    Video by
+                    <a href="https://www.youtube.com/@TheCoderCoder"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        The Coder Coder
+                    </a>
+                </p>
+            </section>
 
         </main>
-
+ 
         <footer>
-            <p>&copy; 2026 Dreamy Delight Ice Cream <a href="https://github.com/danny-smile">Visit my GitHub</a></p>
+            <p>
+                &copy; 2026 Dreamy Delight Ice Cream
+                <a href="https://github.com/danny-smile" target="_blank" rel="noopener noreferrer">
+                    Visit my GitHub
+                </a>
+            </p>
         </footer>
+
+    </div>
 
 </body>
 
