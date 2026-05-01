@@ -7,6 +7,15 @@
 - About Us – `about.html`
 - Contact Us – `contact.html`
    
+### Learning Pages
+- Using the Code Editor – `code-editor.html`
+- HTML Semantic Elements – `semantic.html`
+- CSS Layout & Responsive Design – `css-layout.html`
+- Web Accessibility – `accessibility.html`
+- Ethical Issues in Web Development – `ethics.html`
+- HTML & CSS Validation – `validation.html`
+- Use of Generative AI – `ai-use.html`
+     
 ## 2. Content Details for Each Page
    
 ### Home Page (index.html)
@@ -14,12 +23,33 @@ The homepage will introduce Dreamy Delight Ice Cream with a welcoming hero secti
    
 ### Menu Page (menu.html)
 This page will display all ice cream flavors, categorized by type (e.g., classic, premium, seasonal). Each item may include descriptions and prices to help customers make selections easily.
-   
+    
 ### About Us Page (about.html)
 This page will share the story of Dreamy Delight Ice Cream, including its mission, values, and what makes it unique. It will help build trust and connection with customers.
    
 ### Contact Us Page (contact.html)
 This page will include a contact form, business email, phone number, and possibly store location. It will allow customers to easily reach out with questions or feedback.
+        
+### Code Editor Page
+Explains how Visual Studio Code was used to organize files, write code, and manage the project structure.
+      
+### Semantic HTML Page
+Explains semantic elements like `<header>`, `<nav>`, `<main>`, `<section>`, and `<footer>` and how they improve accessibility and SEO.
+     
+### CSS Layout Page
+Describes how Flexbox, Grid, and media queries are used to create responsive layouts for different screen sizes.
+     
+### Accessibility Page
+Explains accessibility features such as skip links, alt text, ARIA labels, and proper contrast for readability.
+      
+### Ethics Page
+Discusses ethical issues in web development such as privacy, accessibility, copyright, and responsible design.
+     
+### Validation Page
+Explains how W3C HTML and CSS validators were used to check and fix errors to ensure clean, standards compliant code.
+    
+### AI Use Page
+Explains how ChatGPT was used as a learning tool for debugging, understanding concepts, and improving code quality.
     
 ## 3. Planned Media & Assets
    
@@ -38,6 +68,15 @@ Navigation Menu Labels:
 - Menu
 - About Us
 - Contact
+
+### Learning Pages Dropdown:
+- Code Editor  
+- Semantic HTML  
+- CSS Layout  
+- Accessibility  
+- Ethics  
+- Validation  
+- AI Use 
     
 A fixed navigation bar will be placed at the top of every page for easy access to all main sections of the website.
 Each menu item will link directly to its corresponding HTML page for smooth page-to-page navigation.
